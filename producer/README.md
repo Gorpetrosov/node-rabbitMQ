@@ -11,4 +11,20 @@ This project is a RabbitMQ consumer that listens for messages from a specified e
 
 ## Usage
 
-For test
+ `npm run start`
+
+## request example
+ 1. info request
+  `curl --location --request POST 'localhost:3000/produce-message' \
+  --header 'Content-Type: application/json' \
+  --data-raw '{
+  "logType": "info",
+  "message": "info message"
+  }'`
+2.  warning request
+3. `curl --location --request POST 'localhost:3000/produce-message' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+    "logType": "warning",
+    "message": "warning message"
+    }'`

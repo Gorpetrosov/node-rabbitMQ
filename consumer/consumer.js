@@ -35,9 +35,7 @@ class Consumer {
                     await this.messageData(JSON.parse(msg.content));
                     return resolve(msg)
                 }
-
             });
-
         })
     }
 

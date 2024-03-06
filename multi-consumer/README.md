@@ -11,4 +11,4 @@ This project is a RabbitMQ consumer that listens for messages from a specified e
 
 ## Usage
 
-For test
+`npm run start`
